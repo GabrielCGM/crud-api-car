@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS car(
+id INT PRIMARY KEY AUTO_INCREMENT,
+brand VARCHAR(20) NOT NULL,
+model VARCHAR(20) NOT NULL,
+model_year INT(4) NOT NULL,
+available boolean NOT NULL
+);
